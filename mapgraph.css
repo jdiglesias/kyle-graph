@@ -1,0 +1,62 @@
+.agriculture{
+    fill: #e09026;
+}
+.forestry{
+    fill: #025855;
+}
+.land-reclamation{
+    fill: #412310;
+}
+.landscapes-and-gardens{
+    fill: #2cabe1;
+}
+.landfill{
+    fill: grey;
+}
+.incineration{
+    fill: #1C1C1C;
+}
+
+.state-name{
+    font-family: "Montserrat", sans-serif;
+    fill: rgb(44, 62, 80);
+    font-size: 64px;
+    transform: rotateX(180deg);
+}
+
+.key{
+  width: 40%;
+  position: absolute;
+   left: 0px;
+   top: 0px;
+   transform: translate(10%,80%);
+
+}
+
+.key-text{
+    font-family: "Hind", sans-serif;
+    font-size: 62px;
+    fill: white;
+
+}
+
+.key-title-text{
+    font-family: "Hind", sans-serif;
+    font-size: 62px;
+}
+
+.tick text{
+    font-family: "Hind", sans-serif;
+    font-size: 92px;
+
+}
+.percent-text {
+    font-family: "Hind", sans-serif;
+    font-size: 72px;
+}
+
+.map {
+  width: 100%;
+  min-width: 500px;
+  height: 600px;
+}
